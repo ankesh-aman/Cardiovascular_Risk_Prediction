@@ -104,8 +104,8 @@ This project successfully explores the prediction of **10-year cardiovascular ri
 - **Demographic Patterns**: The **median patient age is 49**, and **males show a slightly higher risk** of CHD compared to females.
 - **Imbalanced Dataset**: A large number of patients do not have CHD, creating a class imbalance issue that was effectively addressed using **SMOTE (Synthetic Minority Oversampling Technique)**.
 
-**From a modeling perspective:
-**
+**From modeling perspective:**
+
 - **Support Vector Machine (SVM)** with the radial kernel emerged as the **best-performing model**, achieving the highest **F1-score and AUC**, indicating strong balance between **precision and recall** and a high true positive rate.
 - **XGBoost** also performed robustly, offering high test accuracy and strong generalization.
 - **Data Scaling Impact**: Scaling affected model performance; notably, **SVM performed best without scaling**, highlighting the importance of preprocessing decisions.
@@ -128,15 +128,15 @@ This project demonstrates the potential of machine learning to assist in early r
    git clone https://github.com/yourusername/Cardiovascular-Risk-Prediction.git
    ```
 2. **Navigate to the Project Directory**
-  ```
-  cd Cardiovascular-Risk-Prediction
-  ```
+   ```
+   cd Cardiovascular-Risk-Prediction
+   ```
 
 3. **Launch Jupyter Notebook**
-
-  ```
-  jupyter notebook Cardiovascular_Risk_Prediction_Ankesh_Aman.ipynb
-  ```
+   ```
+   jupyter notebook Cardiovascular_Risk_Prediction_Ankesh_Aman.ipynb
+   ```
+   
 4. Run the Notebook Cells Follow along the notebook to see the full analysis, visualizations, and model results.
 
 ---
